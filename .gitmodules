@@ -1,0 +1,9 @@
+[submodule "components/LovyanGFX"]
+	path = components/LovyanGFX
+	url = https://github.com/lovyan03/LovyanGFX.git
+[submodule "components/lvgl"]
+	path = components/lvgl
+	url = https://github.com/lvgl/lvgl.git
+[submodule "components/esp32-button"]
+	path = components/esp32-button
+	url = https://github.com/craftmetrics/esp32-button.git
