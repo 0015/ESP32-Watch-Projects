@@ -1,6 +1,6 @@
 # ESP32-Watch For OpenHaystack
 
-[![Foo](https://github.com/0015/ESP32-Watch-For-OpenHaystack/blob/main/demo/watch-demo.gif)]
+![Foo](https://github.com/0015/ESP32-Watch-For-OpenHaystack/blob/main/demo/watch-demo.gif)
 
 It's able to track the ESP32 without GPS using OpenHaystack. Because it works so well, it may lead to privacy issues.
 
