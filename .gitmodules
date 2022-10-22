@@ -1,0 +1,9 @@
+[submodule "ESP32-Watch-For-OpenHaystack/components/LovyanGFX"]
+	path = ESP32-Watch-For-OpenHaystack/components/LovyanGFX
+	url = https://github.com/lovyan03/LovyanGFX.git
+[submodule "ESP32-Watch-For-OpenHaystack/components/lvgl"]
+	path = ESP32-Watch-For-OpenHaystack/components/lvgl
+	url = https://github.com/lvgl/lvgl.git
+[submodule "ESP32-Watch-For-OpenHaystack/components/esp32-button"]
+	path = ESP32-Watch-For-OpenHaystack/components/esp32-button
+	url = https://github.com/craftmetrics/esp32-button.git
