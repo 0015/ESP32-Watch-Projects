@@ -1,16 +1,45 @@
-# ESP32-Watch Project
+# ESP32-Watch For OpenHaystack
 
-## OpenHaystack
-
-[![Demo](https://github.com/0015/ESP32-Watch-Projects/ESP32-Watch-For-OpenHaystack/blob/main/demo/watch-demo.gif)](https://youtu.be/8672iWVhBvM)
+[Demo](https://youtu.be/8672iWVhBvM)
+[![Foo](https://github.com/0015/ESP32-Watch-For-OpenHaystack/blob/main/demo/watch-demo.gif)](https://youtu.be/8672iWVhBvM)
 
 It's able to track the ESP32 without GPS using OpenHaystack. Because it works so well, it may lead to privacy issues.
 
 The ESP32-Watch for OpenHaystack is designed to be trackable by the user's choice. It includes minimal watch functionality and broadcasting over BLE for Apple's Find my network.
 
-To discover your device through Apple's Fine my network, you must first run OpenHaystack on your Mac. For more information, please refer to the OpenHaystack Github. It's able to track the ESP32 without GPS using OpenHaystack. Because it works so well, it may lead to privacy issues.
+## Introduction
 
-The ESP32-Watch for OpenHaystack is designed to be trackable by the user's choice. It includes minimal watch functionality and broadcasting over BLE for Apple's Find my network.
+This project is based on the firmware for ESP32 from OpenHaystack(https://github.com/seemoo-lab/openhaystack)
+
+## OpenHaystack
+
+To discover your device through Apple's Fine my network, you must first run OpenHaystack on your Mac. For more information, please refer to the OpenHaystack Github.
+
+## OpenHaystack Firmware for ESP32
+
+https://github.com/seemoo-lab/openhaystack/tree/main/Firmware/ESP32
+
+
+## ESP-IDF Environment
+
+First of all, the ESP-IDF development environment should be ready in advance.
+[Tutorials for the ESP-IDF Visual Studio Code Extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/toc.md)
+
+## Hardware
+
+For the ESP32-Watch, I used the ESP32-PICO-D4, but any ESP32 would work.
+- Any ESP32 (not ESP32-S2)
+- SPI interface Display or more
+- 2 Buttons
+- LiPo Battery
+
+## Software
+
+Libraries used in ESP32 Watch are as follows.
+- LVGL(https://github.com/lvgl/lvgl)
+- LovyanGFX(https://github.com/lovyan03/LovyanGFX)
+- ESP32-Button(https://github.com/craftmetrics/esp32-button)
+
 
 ### Created & Maintained By
 
